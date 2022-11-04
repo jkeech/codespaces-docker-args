@@ -1,0 +1,8 @@
+{
+    "build": {
+        "dockerfile": "./Dockerfile",
+        "args": {
+            "MY_SECRET": "${localEnv:MY_SECRET}"
+        }
+    }
+}
